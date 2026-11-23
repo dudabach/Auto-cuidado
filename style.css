@@ -534,3 +534,16 @@ footer small {
     font-size: 12px;
   }
 }
+.logo-essenza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-essenza img {
+    display: block;
+    width: min(100%, 520px);
+    height: auto;
+    object-fit: contain;
+}
